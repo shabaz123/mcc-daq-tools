@@ -1,0 +1,15 @@
+[Unit]
+Description=daqviki service
+After=multi-user.target
+
+[Service]
+Type=idle
+User=pi
+WorkingDirectory=/home/pi/development/daqproj/daqviki
+ExecStart=/home/pi/development/daqproj/daqviki/daqviki
+Restart=always
+RestartSec=0
+
+[Install]
+WantedBy=multi-user.target
+
