@@ -15,6 +15,7 @@ The daqproj folder contains the following tools:
 daqstream
 ---------
 A prerequisite for the **daqstream** code is to install the following code first: https://github.com/Theldus/wsServer
+
 Edit in **/home/pi/development/daqproj/daqstream/Makefile** the line that contains the **WSDIR** entry, so that it can find the wsServer library and include files.
 Build the daqstream code by typing the following in the **/home/pi/development/daqproj/daqstream** folder:
 
